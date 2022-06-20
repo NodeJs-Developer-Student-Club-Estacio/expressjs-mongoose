@@ -21,8 +21,7 @@ This example starts an [ExpressJS](https://expressjs.com/) server that connects 
 ## 💁‍♀️ How to use
 
 - Install dependencies `yarn`
-- Connect to your Railway project `railway link`
-- Start the development server `railway run yarn dev`
+- Start the development server `yarn run dev`
 
 ## 📝 Notes
 
