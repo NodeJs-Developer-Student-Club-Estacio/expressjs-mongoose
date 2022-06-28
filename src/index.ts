@@ -4,6 +4,9 @@ import countryRoutes from "./routes/country";
 
 const app = express();
 const port = process.env.PORT || 3333;
+// require("./controllers/authController")(app);
+
+require("./controllers/authController")(app);
 
 app.use(express.json());
 app.use(express.raw({ type: "application/vnd.custom-type" }));

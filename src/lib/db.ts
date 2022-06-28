@@ -1,13 +1,6 @@
 import mongoose from "mongoose";
 
-if (!process.env.MONGO_URL) {
-  throw new Error("Please add the MONGO_URL environment variable");
-}
-
-mongoose.connect(process.env.MONGO_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb://docker:mongopw@localhost:49153');
 
 const database = mongoose.connection;
 
