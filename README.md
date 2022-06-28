@@ -8,7 +8,7 @@ tags:
   - typescript
 ---
 
-# ExpressJS Mongoose Example https://opensourcelibs.com/
+# ExpressJS Mongoose Example
 
 This example starts an [ExpressJS](https://expressjs.com/) server that connects to a Railway MongoDB database using [MongooseJS](https://mongoosejs.com/)
 
