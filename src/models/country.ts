@@ -10,9 +10,14 @@ const CountrySchema = new Schema({
     type: String,
     unique: true,
   },
+  email: {
+    type: String,
+    unique: true,
+  },
   iso2code: {
     type: String,
-  },
+    unique: true,
+  },  
 });
 
 const CountryModel = model<ICountry>("Country", CountrySchema);
